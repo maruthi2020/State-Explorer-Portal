@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+    <head>
+<script>
+var j=0;
+function fun8()
+{
+j=0;
+var n=0;
+if(j==0)
+document.body.style.backgroundImage="url('india2.jpg')";
+setInterval(change,3000);
+function change()
+  {
+if(n%4==0 && j==0)
+ {document.body.style.backgroundImage="url('india1.jpg')";
+  n++}
+else if(n%4==1 && j==0)
+{document.body.style.backgroundImage="url('india.jpg')";
+ n++} 
+else if(n%4==2 && j===0)
+{document.body.style.backgroundImage="url('india3.jpg')";
+ n++}
+else if( j==0)
+{document.body.style.backgroundImage="url('india2.jpg')";
+n++} 
+}}
+function fun1()
+{
+j=1;
+document.body.style.backgroundImage="url('ap1.jpeg')";
+
+}
+
+function fun2()
+{
+j=2;
+document.body.style.backgroundImage="url('ka.jpg')";
+
+}
+function fun3()
+{
+j=3;
+document.body.style.backgroundImage="url('ke.jpg')";
+
+}
+function fun4()
+{
+j=4;
+document.body.style.backgroundImage="url('mp.jpg')";
+
+}
+function fun5()
+{
+j=5;
+document.body.style.backgroundImage="url('ma.jpg')";
+
+}
+function fun6()
+{
+j=6;
+document.body.style.backgroundImage="url('tn.jpg')";
+
+}
+function fun7()
+{
+j=7;
+document.body.style.backgroundImage="url('te.jpg')";
+
+}
+
+
+</script>
+        <style type="text/css">
+           h1
+           {
+              text-align:center;
+              color:red;
+              text-decoration:underline;
+              font-size:60;
+              font-style:italic;
+           }
+            #button
+            {
+               
+                color: #FFF;
+
+background: #0686C9;
+
+text-shadow: -1px -1px 1px #666;
+
+background: rgb(30,87,153);
+
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1)));
+
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+
+background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); 	background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+
+background: linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+
+padding:8px 15px;
+
+
+border-style:double;
+border-color:red;
+border-width:2;
+            }
+            body
+            {
+               
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    imgage-height: 20%;
+ 
+background-color:#8E44AD;
+            }
+        </style>
+   </head>
+   <body>
+       <h1><font size="10">INDIA</font></h1><br><br><br>
+        <table align="right">
+           <tr><td colspan="2">for more updates</td></tr>
+           <tr><td><a href="login.html" target="two"><input type="button" id="button" value="Login" onclick="fun8()"></a></td><td><a href="forms.html" target="two"><input type="button" id="button" value="Sing-up" onclick="fun8()"></a></td></tr>
+       </table>
+       <table cellspacing="10">
+           <tr>
+               <td ><a href="two.html" target="two"><input type="button" id="button"  value="home page" onclick="fun8()"></a></td>
+               <td><a href="ap.html" target="two"><input type="button" id="button"  value="Andra pradhesh" onclick="fun1()"></a></td>
+               <td><a href="ka.html" target="two"><input type="button" id="button" value="Karnataka" onclick="fun2()"></a></td>
+               <td><a href="ke.html" target="two"><input type="button" id="button" value="Kerala" onclick="fun3()"></a></td>
+               <td><a href="mp.html" target="two"><input type="button" id="button" value="madhya pradedh" onclick="fun4()"></a></td>    
+               <td><a href="ma.html" target="two"><input type="button" id="button" value="Maharastra" onclick="fun5()"></a></td>
+               <td><a href="tn.html" target="two"><input type="button" id="button" value="Tamil nadu" onclick="fun6()" ></a></td>
+               <td><a href="te.html" target="two"><input type="button" id="button" value="Telangana" onclick="fun7()"></a></td>
+          
+               </tr>
+       </table>
+      
+   </body>
+</html>

@@ -1,0 +1,57 @@
+h1
+{
+    text-transform:uppercase;
+    color:red;
+    font-style:italic;
+    text-decoration:underline;
+}
+#intro p
+{
+    text-indent:100;
+    width="60%"
+}
+.table
+{
+   table-layout:fixed;
+    width="35%"
+   background-color:yellow;
+   border-style:thin;
+   border-color:black;
+   border-width:2px;
+}
+
+body
+{
+    margin-left:10%;
+    margin-right:10%;
+margin-top:2%;
+background:#fffaf0;
+}
+h2
+{
+    color:orange;
+    
+}
+p
+{
+text-indent:50PX}
+#intro td
+{
+    width:100%;
+}
+#his td
+{
+    width:100%;
+}
+.intro td
+{
+    width="100%"
+}
+.visit img
+{
+width:600px;
+}
+.logo img
+{
+width:100px;
+}
